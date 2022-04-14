@@ -11,7 +11,7 @@ function opemWeather(){
         a.style.display = 'none'
     }else{
         function weather(name){
-            fetch(`https://api.openweathermap.org/data/2.5/find?q=${name}&appid=1e637676601053e4a0a808c8d6b1f90b`)
+            fetch(`https://api.openweathermap.org/data/2.5/find?q=${name}&appid=`)
                 .then(function(resp){
                     return resp.json()})
                 .then(function(data){
